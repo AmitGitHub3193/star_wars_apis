@@ -1,0 +1,8 @@
+name: 'Star Wars APIs'
+type: module
+core_version_requirement: ^8 || ^9 || ^10
+description: 'Fetch and show Star wars movies and details from api'
+package: 'Custom'
+dependencies:
+  - drupal:block
+  - drupal:config

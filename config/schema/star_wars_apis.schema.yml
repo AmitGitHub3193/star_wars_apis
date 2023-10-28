@@ -1,0 +1,7 @@
+block.settings.star_wars_movies_block:
+  type: block_settings
+  label: 'Star Wars Movies'
+  mapping:
+    items_count:
+      type: integer
+      label: 'No of Movies to display'

@@ -1,0 +1,7 @@
+{
+    "name": "drupal/star_wars_apis",
+    "description": "Drupal module to fetch and show Star wars movies and details from api",
+    "type": "drupal-module",
+    "license": "GPL-2.0-or-later",
+    "require": {}
+}

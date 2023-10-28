@@ -1,0 +1,5 @@
+star-wars-movies:
+  version: 1.x
+  css:
+    theme:
+      css/star-wars-movies.css: {}

@@ -1,0 +1,5 @@
+services:
+  star_wars_apis:
+    class: Drupal\star_wars_apis\StarWarsApiClient
+    arguments:
+      - '@http_client_factory'

@@ -1,0 +1,26 @@
+{% if movies is not empty %}
+	<table class="styled-table">
+	    <thead>
+	        <tr>
+	            <th>Title</th>
+	            <th>Episode Id</th>
+	            <th>Director</th>
+	            <th>Producer</th>
+	            <th>Release Date</th>
+	        </tr>
+	    </thead>
+	    <tbody>
+	    	{% for movie in movies %}
+		        <tr>
+		            <td>{{ movie.title }}</td>
+		            <td>{{ movie.episode_id }}</td>
+		            <td>{{ movie.director }}</td>
+		            <td>{{ movie.producer }}</td>
+		            <td>{{ movie.release_date|date('F j, Y') }}</td>
+		        </tr>
+	    	{% endfor %}
+	    </tbody>
+	</table>
+{% else %}
+	{{ 'No movies found.'|t }}
+{% endif %}

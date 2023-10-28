@@ -1,0 +1,19 @@
+<?php
+
+/**
+ * @file 
+ * This file demonstrates how to use hook functions.
+ */
+
+/**
+ *  Implements hook_theme().
+ */
+function star_wars_apis_theme($existing, $type, $theme, $path) {
+  return [
+    'star_war_movies' => [
+      'variables' => [
+        'movies' => [],
+      ],
+    ],
+  ];
+}
